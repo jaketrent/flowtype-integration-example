@@ -1,0 +1,19 @@
+{
+  "name": "flowtype-integration-example",
+  "version": "1.0.0",
+  "description": "example of how flowtype and babel are integrated",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist"
+  },
+  "keywords": [],
+  "author": "jaketrent",
+  "license": "MIT",
+  "dependencies": {
+    "flow-bin": "^0.68.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-flow": "^6.23.0"
+  }
+}
